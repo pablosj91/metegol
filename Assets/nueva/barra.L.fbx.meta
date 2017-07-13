@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 5750da400c8834a6298007e639cfcb9a
+timeCreated: 1461275182
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 01_02
+    100002: 01_02_end
+    100004: 01_03
+    100006: 01_03_end
+    100008: 01_04
+    100010: 01_04_end
+    100012: 01_05
+    100014: 01_05_end
+    100016: 02_02
+    100018: 02_02_end
+    100020: 02_03
+    100022: 02_03_end
+    100024: 02_04
+    100026: 02_04_end
+    100028: 02_05
+    100030: 02_05_end
+    100032: 03_02
+    100034: 03_02_end
+    100036: 03_03
+    100038: 03_03_end
+    100040: 03_04
+    100042: 03_04_end
+    100044: 03_05
+    100046: 03_05_end
+    100048: a_2
+    100050: Armature
+    100052: //RootNode
+    100054: c_1
+    100056: d_2
+    100058: e_1
+    100060: f_2
+    100062: graderia
+    100064: Parent
+    100066: q_1
+    100068: r_1
+    100070: s_2
+    100072: v_1
+    100074: w_1
+    100076: x_1
+    100078: z_1
+    400000: 01_02
+    400002: 01_02_end
+    400004: 01_03
+    400006: 01_03_end
+    400008: 01_04
+    400010: 01_04_end
+    400012: 01_05
+    400014: 01_05_end
+    400016: 02_02
+    400018: 02_02_end
+    400020: 02_03
+    400022: 02_03_end
+    400024: 02_04
+    400026: 02_04_end
+    400028: 02_05
+    400030: 02_05_end
+    400032: 03_02
+    400034: 03_02_end
+    400036: 03_03
+    400038: 03_03_end
+    400040: 03_04
+    400042: 03_04_end
+    400044: 03_05
+    400046: 03_05_end
+    400048: a_2
+    400050: Armature
+    400052: //RootNode
+    400054: c_1
+    400056: d_2
+    400058: e_1
+    400060: f_2
+    400062: graderia
+    400064: Parent
+    400066: q_1
+    400068: r_1
+    400070: s_2
+    400072: v_1
+    400074: w_1
+    400076: x_1
+    400078: z_1
+    2300000: graderia
+    3300000: graderia
+    4300000: graderia
+    4300002: q_1
+    4300004: w_1
+    4300006: e_1
+    4300008: r_1
+    4300010: f_2
+    4300012: d_2
+    4300014: s_2
+    4300016: a_2
+    4300018: v_1
+    4300020: c_1
+    4300022: x_1
+    4300024: z_1
+    7400000: Armature|Idle
+    7400002: Armature|Idle.003
+    9500000: //RootNode
+    13700000: a_2
+    13700002: c_1
+    13700004: d_2
+    13700006: e_1
+    13700008: f_2
+    13700010: q_1
+    13700012: r_1
+    13700014: s_2
+    13700016: v_1
+    13700018: w_1
+    13700020: x_1
+    13700022: z_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: a_2
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_02/01_02_end
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_03/01_03_end
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_04/01_04_end
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/01_05/01_05_end
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_02/02_02_end
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_03/02_03_end
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_04/02_04_end
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/02_05/02_05_end
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_02/03_02_end
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_03/03_03_end
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_04/03_04_end
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Armature/Parent/03_05/03_05_end
+        weight: 1
+      - path: c_1
+        weight: 1
+      - path: d_2
+        weight: 1
+      - path: e_1
+        weight: 1
+      - path: f_2
+        weight: 1
+      - path: graderia
+        weight: 1
+      - path: q_1
+        weight: 1
+      - path: r_1
+        weight: 1
+      - path: s_2
+        weight: 1
+      - path: v_1
+        weight: 1
+      - path: w_1
+        weight: 1
+      - path: x_1
+        weight: 1
+      - path: z_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle.003
+      takeName: Armature|Idle.003
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: a_2
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_02/01_02_end
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_03/01_03_end
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_04/01_04_end
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/01_05/01_05_end
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_02/02_02_end
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_03/02_03_end
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_04/02_04_end
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/02_05/02_05_end
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_02/03_02_end
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_03/03_03_end
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_04/03_04_end
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Armature/Parent/03_05/03_05_end
+        weight: 1
+      - path: c_1
+        weight: 1
+      - path: d_2
+        weight: 1
+      - path: e_1
+        weight: 1
+      - path: f_2
+        weight: 1
+      - path: graderia
+        weight: 1
+      - path: q_1
+        weight: 1
+      - path: r_1
+        weight: 1
+      - path: s_2
+        weight: 1
+      - path: v_1
+        weight: 1
+      - path: w_1
+        weight: 1
+      - path: x_1
+        weight: 1
+      - path: z_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

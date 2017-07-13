@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 2ee3f71fb71844394bc48faa4ea3f3af
+timeCreated: 1461278808
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 01_01
+    100002: 01_02
+    100004: 01_03
+    100006: 01_04
+    100008: 01_05
+    100010: 02_01
+    100012: 02_02
+    100014: 02_03
+    100016: 02_04
+    100018: 02_05
+    100020: 03_01
+    100022: 03_02
+    100024: 03_03
+    100026: 03_04
+    100028: 03_05
+    100030: _704
+    100032: _705
+    100034: _706
+    100036: _707
+    100038: _708
+    100040: _709
+    100042: _710
+    100044: _711
+    100046: _712
+    100048: _713
+    100050: _714
+    100052: _715
+    100054: _716
+    100056: _717
+    100058: _718
+    100060: Armature
+    100062: //RootNode
+    100064: Matrix_112
+    100066: Parent
+    400000: 01_01
+    400002: 01_02
+    400004: 01_03
+    400006: 01_04
+    400008: 01_05
+    400010: 02_01
+    400012: 02_02
+    400014: 02_03
+    400016: 02_04
+    400018: 02_05
+    400020: 03_01
+    400022: 03_02
+    400024: 03_03
+    400026: 03_04
+    400028: 03_05
+    400030: _704
+    400032: _705
+    400034: _706
+    400036: _707
+    400038: _708
+    400040: _709
+    400042: _710
+    400044: _711
+    400046: _712
+    400048: _713
+    400050: _714
+    400052: _715
+    400054: _716
+    400056: _717
+    400058: _718
+    400060: Armature
+    400062: //RootNode
+    400064: Matrix_112
+    400066: Parent
+    2300000: Matrix_112
+    3300000: Matrix_112
+    4300000: Matrix_112
+    4300002: _708
+    4300004: _709
+    4300006: _712
+    4300008: _714
+    4300010: _717
+    4300012: _716
+    4300014: _711
+    4300016: _710
+    4300018: _707
+    4300020: _706
+    4300022: _718
+    4300024: _715
+    4300026: _713
+    4300028: _704
+    4300030: _705
+    7400000: Default Take
+    7400002: Celebracion
+    7400004: Idle
+    7400006: Idle_000
+    9500000: //RootNode
+    13700000: _704
+    13700002: _705
+    13700004: _706
+    13700006: _707
+    13700008: _708
+    13700010: _709
+    13700012: _710
+    13700014: _711
+    13700016: _712
+    13700018: _713
+    13700020: _714
+    13700022: _715
+    13700024: _716
+    13700026: _717
+    13700028: _718
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _704
+        weight: 1
+      - path: _705
+        weight: 1
+      - path: _706
+        weight: 1
+      - path: _707
+        weight: 1
+      - path: _708
+        weight: 1
+      - path: _709
+        weight: 1
+      - path: _710
+        weight: 1
+      - path: _711
+        weight: 1
+      - path: _712
+        weight: 1
+      - path: _713
+        weight: 1
+      - path: _714
+        weight: 1
+      - path: _715
+        weight: 1
+      - path: _716
+        weight: 1
+      - path: _717
+        weight: 1
+      - path: _718
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Matrix_112
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Celebracion
+      takeName: Celebracion
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _704
+        weight: 1
+      - path: _705
+        weight: 1
+      - path: _706
+        weight: 1
+      - path: _707
+        weight: 1
+      - path: _708
+        weight: 1
+      - path: _709
+        weight: 1
+      - path: _710
+        weight: 1
+      - path: _711
+        weight: 1
+      - path: _712
+        weight: 1
+      - path: _713
+        weight: 1
+      - path: _714
+        weight: 1
+      - path: _715
+        weight: 1
+      - path: _716
+        weight: 1
+      - path: _717
+        weight: 1
+      - path: _718
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Matrix_112
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _704
+        weight: 1
+      - path: _705
+        weight: 1
+      - path: _706
+        weight: 1
+      - path: _707
+        weight: 1
+      - path: _708
+        weight: 1
+      - path: _709
+        weight: 1
+      - path: _710
+        weight: 1
+      - path: _711
+        weight: 1
+      - path: _712
+        weight: 1
+      - path: _713
+        weight: 1
+      - path: _714
+        weight: 1
+      - path: _715
+        weight: 1
+      - path: _716
+        weight: 1
+      - path: _717
+        weight: 1
+      - path: _718
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Matrix_112
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_000
+      takeName: Idle_000
+      firstFrame: -1
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _704
+        weight: 1
+      - path: _705
+        weight: 1
+      - path: _706
+        weight: 1
+      - path: _707
+        weight: 1
+      - path: _708
+        weight: 1
+      - path: _709
+        weight: 1
+      - path: _710
+        weight: 1
+      - path: _711
+        weight: 1
+      - path: _712
+        weight: 1
+      - path: _713
+        weight: 1
+      - path: _714
+        weight: 1
+      - path: _715
+        weight: 1
+      - path: _716
+        weight: 1
+      - path: _717
+        weight: 1
+      - path: _718
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Matrix_112
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
