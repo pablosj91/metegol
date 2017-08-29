@@ -1,0 +1,63 @@
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEditor.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEditor.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\renec\Documents\Pulpo\Mete Gol\obj\Debug\Assembly-CSharp.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol\obj\Debug\Assembly-CSharp.pdb
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\renec\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\renec\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.dll
+C:\Users\renec\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.dll
+C:\Users\Animal Brain\Documents\Pulpo\Mete Gol2\obj\Debug\Assembly-CSharp.pdb

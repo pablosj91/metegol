@@ -12,13 +12,18 @@ public class SliderController : MonoBehaviour {
 	public AnimController player;
 	public int pupConter;
 	public Image handle;
+	private AudioSource reproductor;
+	public PlayerSoundController playerSoundController;
 
 	void Start () {
 		slider.value = -3;
 		InvokeRepeating ("Vibrate", 0.3f, 1.0f);
 		gnrlMngr = GameObject.FindGameObjectWithTag ("GeneralManager").GetComponent<GeneralManager> ();
 		speed = gnrlMngr.speed;
-		pupConter = player.pupC; 
+		pupConter = player.pupC;
+		reproductor = gameObject.GetComponent <AudioSource> ();
+		reproductor.enabled = true;
+		playerSoundController = player.gameObject.GetComponentInParent <PlayerSoundController> ();
 	}
 	
 	void FixedUpdate () {
@@ -86,6 +91,7 @@ public class SliderController : MonoBehaviour {
 			//#if(UNITY_ANDROID)
 			if(Input.touchCount > 0)
 			{
+				playerSoundController.loadKick ();
 				slider.GetComponentInChildren <Image> ().enabled = false;
 				speed = 0;
 				if (slider.value >= -1.85f && slider.value <= 1.85f) {
@@ -140,6 +146,7 @@ public class SliderController : MonoBehaviour {
 
 	void DisapearHandle(){
 		handle.enabled = false;
+		reproductor.enabled = false;
 	}
 
 }

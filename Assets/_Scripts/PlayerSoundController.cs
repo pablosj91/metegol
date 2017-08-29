@@ -21,8 +21,9 @@ public class PlayerSoundController : MonoBehaviour {
 	}
 
 	public void kick(){
-		reproductor.clip = sonidos [2];
-		reproductor.PlayDelayed (0.4f);
+		reproductor.clip = sonidos [7];
+		reproductor.Play ();
+		Invoke ("patada", 0.4f);
 	}
 
 	public void goalKeeper(){
@@ -42,6 +43,11 @@ public class PlayerSoundController : MonoBehaviour {
 		
 	public void ballPunch(){
 		reproductor.clip = sonidos [6];
+		reproductor.Play ();
+	}
+
+	public void loadKick() {
+		reproductor.clip = sonidos [2];
 		reproductor.Play ();
 	}
 }

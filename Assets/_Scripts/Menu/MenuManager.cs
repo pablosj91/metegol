@@ -68,9 +68,11 @@ public class MenuManager : MonoBehaviour {
 	public Animator camara1animator;
 	public Animator camara2animator;
 
+	public AudioClip[] sonidos;
+	private AudioSource reproductor;
 
 	void Start () {
-		
+		//PlayerPrefs.DeleteAll ();
 		gnrlMngr = GameObject.FindGameObjectWithTag ("GeneralManager").GetComponent <GeneralManager> ();
 		camara4 = GameObject.Find ("Camera4").GetComponent<Camera> ();
 		camara1 = GameObject.Find ("Main Camera").GetComponent<Camera> ();
@@ -89,6 +91,7 @@ public class MenuManager : MonoBehaviour {
 		TextUpdate ();
 		armarEquipos ();
 		Presentacion ();
+		reproductor = gameObject.GetComponent <AudioSource> ();
 	}
 
 	void Update(){
@@ -280,6 +283,8 @@ public class MenuManager : MonoBehaviour {
 					}
 
 				}
+				reproductor.clip = sonidos [v];
+				reproductor.Play ();
 			}		
 		}
 	}
@@ -508,7 +513,7 @@ public class MenuManager : MonoBehaviour {
 			CanvasCam1.enabled = false;
 			CanvasCam2.enabled = false;
 			CanvasCam3.enabled = false;
-			SoundOnOff ();
+//			SoundOnOff ();
 		} else {
 			camaraAnimator.enabled = false;
 			logoAnimator.enabled = false;

@@ -1,0 +1,17 @@
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/pablosj91/VideoGames/Mete Gol/obj/Debug/Assembly-CSharp.dll
+/Users/pablosj91/VideoGames/Mete Gol/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/UnityEngine.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/UnityEditor.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Mono.Cecil.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Unity.DataContract.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/pablosj91/VideoGames/Mete Gol/Temp/bin/Debug/Mono.Cecil.Mdb.dll

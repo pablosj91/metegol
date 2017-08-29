@@ -184,7 +184,7 @@ public class InGameMenuManager : MonoBehaviour {
 			} else {		
 				gnrlMngr.PlayMusic ();				
 			}
-		}
+		}		
 
 		AnimParlante ();
 	}

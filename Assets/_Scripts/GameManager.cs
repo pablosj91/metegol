@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject countDown;
 	public Animator animCount;
 	public Texture [] countTexture;
-	private int countC = 2;
+	private int countC = 1;
 
 	private static float timeLeft = 1;
 
@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour {
 
 	private float spawnDelay = 0.2f;
 	private float speedT = 0;
+
+	private AudioSource reproductor;
 
 	void Start () {
 		gnrlMngr = GameObject.FindGameObjectWithTag ("GeneralManager").GetComponent<GeneralManager> ();
@@ -66,11 +68,14 @@ public class GameManager : MonoBehaviour {
 		}
 		UpdateText ();
 		if(gnrlMngr.previousScene == 1){
+			countDown.GetComponent <Renderer> ().material.mainTexture = countTexture [2];
 			spawnDelay += 1.5f;
 			spawnRival -= 0.2f;
+			reproductor = countDown.GetComponent <AudioSource> ();
+			reproductor.Play ();
 			Invoke ("StartRunning", 1.5f);
 			countDown.SetActive (true);
-			InvokeRepeating ("CountDrop", 0, 0.5f);
+			InvokeRepeating ("CountDrop", 0.5f, 0.5f);
 		}else{
 			countDown.SetActive (false);
 		}
@@ -78,6 +83,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void StartRunning(){
+//		reproductor.Play ();
 		animCount.Play ("countGone");
 		//player.GetComponent <AnimController> ().speed = speedT;	
 	}
@@ -192,6 +198,7 @@ public class GameManager : MonoBehaviour {
 
 	void CountDrop(){
 		animCount.Play ("CountDown");
+		reproductor.Play ();
 		countDown.GetComponent <Renderer> ().material.mainTexture = countTexture [countC];
 		countC --;
 		if (countC < 0)

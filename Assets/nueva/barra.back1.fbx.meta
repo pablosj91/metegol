@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 58a0b155bf7a64295a48f3f6d8755aa7
+timeCreated: 1461275183
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 01_01
+    100002: 01_01_end
+    100004: 01_02
+    100006: 01_02_end
+    100008: 01_03
+    100010: 01_03_end
+    100012: 01_04
+    100014: 01_04_end
+    100016: 01_05
+    100018: 01_05_end
+    100020: 02_01
+    100022: 02_01_end
+    100024: 02_02
+    100026: 02_02_end
+    100028: 02_03
+    100030: 02_03_end
+    100032: 02_04
+    100034: 02_04_end
+    100036: 02_05
+    100038: 02_05_end
+    100040: 02_06
+    100042: 02_06_end
+    100044: 03_01
+    100046: 03_01_end
+    100048: 03_02
+    100050: 03_02_end
+    100052: 03_03
+    100054: 03_03_end
+    100056: 03_04
+    100058: 03_04_end
+    100060: 03_05
+    100062: 03_05_end
+    100064: 04_01
+    100066: 04_01_end
+    100068: 04_02
+    100070: 04_02_end
+    100072: 04_03
+    100074: 04_03_end
+    100076: 04_04
+    100078: 04_04_end
+    100080: 04_05
+    100082: 04_05_end
+    100084: 04_06
+    100086: 04_06_end
+    100088: 05_01
+    100090: 05_01_end
+    100092: 05_02
+    100094: 05_02_end
+    100096: 05_03
+    100098: 05_03_end
+    100100: 05_04
+    100102: 05_04_end
+    100104: 05_05
+    100106: 05_05_end
+    100108: 06_01
+    100110: 06_01_end
+    100112: 06_02
+    100114: 06_02_end
+    100116: 06_03
+    100118: 06_03_end
+    100120: 06_04
+    100122: 06_04_end
+    100124: 06_05
+    100126: 06_05_end
+    100128: 06_06
+    100130: 06_06_end
+    100132: _598
+    100134: _599
+    100136: _600
+    100138: _601
+    100140: _602
+    100142: _603
+    100144: _605
+    100146: _606
+    100148: _607
+    100150: _608
+    100152: _609
+    100154: _610
+    100156: _738
+    100158: _739
+    100160: _740
+    100162: _742
+    100164: _743
+    100166: _744
+    100168: _745
+    100170: _746
+    100172: _747
+    100174: _748
+    100176: _749
+    100178: _750
+    100180: _751
+    100182: _753
+    100184: _754
+    100186: _755
+    100188: _757
+    100190: _758
+    100192: _759
+    100194: _760
+    100196: _761
+    100198: Armature
+    100200: //RootNode
+    100202: Matrix_102
+    100204: Parent
+    400000: 01_01
+    400002: 01_01_end
+    400004: 01_02
+    400006: 01_02_end
+    400008: 01_03
+    400010: 01_03_end
+    400012: 01_04
+    400014: 01_04_end
+    400016: 01_05
+    400018: 01_05_end
+    400020: 02_01
+    400022: 02_01_end
+    400024: 02_02
+    400026: 02_02_end
+    400028: 02_03
+    400030: 02_03_end
+    400032: 02_04
+    400034: 02_04_end
+    400036: 02_05
+    400038: 02_05_end
+    400040: 02_06
+    400042: 02_06_end
+    400044: 03_01
+    400046: 03_01_end
+    400048: 03_02
+    400050: 03_02_end
+    400052: 03_03
+    400054: 03_03_end
+    400056: 03_04
+    400058: 03_04_end
+    400060: 03_05
+    400062: 03_05_end
+    400064: 04_01
+    400066: 04_01_end
+    400068: 04_02
+    400070: 04_02_end
+    400072: 04_03
+    400074: 04_03_end
+    400076: 04_04
+    400078: 04_04_end
+    400080: 04_05
+    400082: 04_05_end
+    400084: 04_06
+    400086: 04_06_end
+    400088: 05_01
+    400090: 05_01_end
+    400092: 05_02
+    400094: 05_02_end
+    400096: 05_03
+    400098: 05_03_end
+    400100: 05_04
+    400102: 05_04_end
+    400104: 05_05
+    400106: 05_05_end
+    400108: 06_01
+    400110: 06_01_end
+    400112: 06_02
+    400114: 06_02_end
+    400116: 06_03
+    400118: 06_03_end
+    400120: 06_04
+    400122: 06_04_end
+    400124: 06_05
+    400126: 06_05_end
+    400128: 06_06
+    400130: 06_06_end
+    400132: _598
+    400134: _599
+    400136: _600
+    400138: _601
+    400140: _602
+    400142: _603
+    400144: _605
+    400146: _606
+    400148: _607
+    400150: _608
+    400152: _609
+    400154: _610
+    400156: _738
+    400158: _739
+    400160: _740
+    400162: _742
+    400164: _743
+    400166: _744
+    400168: _745
+    400170: _746
+    400172: _747
+    400174: _748
+    400176: _749
+    400178: _750
+    400180: _751
+    400182: _753
+    400184: _754
+    400186: _755
+    400188: _757
+    400190: _758
+    400192: _759
+    400194: _760
+    400196: _761
+    400198: Armature
+    400200: //RootNode
+    400202: Matrix_102
+    400204: Parent
+    2300000: Matrix_102
+    3300000: Matrix_102
+    4300000: _610
+    4300002: _598
+    4300004: _599
+    4300006: _740
+    4300008: _739
+    4300010: _746
+    4300012: _747
+    4300014: _601
+    4300016: _600
+    4300018: _738
+    4300020: _742
+    4300022: _609
+    4300024: _603
+    4300026: _602
+    4300028: _744
+    4300030: _743
+    4300032: _605
+    4300034: _606
+    4300036: _607
+    4300038: _608
+    4300040: _745
+    4300042: _754
+    4300044: _751
+    4300046: _750
+    4300048: _749
+    4300050: _748
+    4300052: _753
+    4300054: _755
+    4300056: _757
+    4300058: _758
+    4300060: _759
+    4300062: _760
+    4300064: _761
+    4300066: Matrix_102
+    7400000: Armature|Celebracion
+    7400002: Armature|Idle
+    7400004: Armature|Idle.000
+    7400006: Armature|Idle.003
+    9500000: //RootNode
+    13700000: _598
+    13700002: _599
+    13700004: _600
+    13700006: _601
+    13700008: _602
+    13700010: _603
+    13700012: _605
+    13700014: _606
+    13700016: _607
+    13700018: _608
+    13700020: _609
+    13700022: _610
+    13700024: _738
+    13700026: _739
+    13700028: _740
+    13700030: _742
+    13700032: _743
+    13700034: _744
+    13700036: _745
+    13700038: _746
+    13700040: _747
+    13700042: _748
+    13700044: _749
+    13700046: _750
+    13700048: _751
+    13700050: _753
+    13700052: _754
+    13700054: _755
+    13700056: _757
+    13700058: _758
+    13700060: _759
+    13700062: _760
+    13700064: _761
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Celebracion
+      takeName: Armature|Celebracion
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _598
+        weight: 1
+      - path: _599
+        weight: 1
+      - path: _600
+        weight: 1
+      - path: _601
+        weight: 1
+      - path: _602
+        weight: 1
+      - path: _603
+        weight: 1
+      - path: _605
+        weight: 1
+      - path: _606
+        weight: 1
+      - path: _607
+        weight: 1
+      - path: _608
+        weight: 1
+      - path: _609
+        weight: 1
+      - path: _610
+        weight: 1
+      - path: _738
+        weight: 1
+      - path: _739
+        weight: 1
+      - path: _740
+        weight: 1
+      - path: _742
+        weight: 1
+      - path: _743
+        weight: 1
+      - path: _744
+        weight: 1
+      - path: _745
+        weight: 1
+      - path: _746
+        weight: 1
+      - path: _747
+        weight: 1
+      - path: _748
+        weight: 1
+      - path: _749
+        weight: 1
+      - path: _750
+        weight: 1
+      - path: _751
+        weight: 1
+      - path: _753
+        weight: 1
+      - path: _754
+        weight: 1
+      - path: _755
+        weight: 1
+      - path: _757
+        weight: 1
+      - path: _758
+        weight: 1
+      - path: _759
+        weight: 1
+      - path: _760
+        weight: 1
+      - path: _761
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_01/01_01_end
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_02/01_02_end
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_03/01_03_end
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_04/01_04_end
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/01_05/01_05_end
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_01/02_01_end
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_02/02_02_end
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_03/02_03_end
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_04/02_04_end
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/02_05/02_05_end
+        weight: 1
+      - path: Armature/Parent/02_06
+        weight: 1
+      - path: Armature/Parent/02_06/02_06_end
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_01/03_01_end
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_02/03_02_end
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_03/03_03_end
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_04/03_04_end
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Armature/Parent/03_05/03_05_end
+        weight: 1
+      - path: Armature/Parent/04_01
+        weight: 1
+      - path: Armature/Parent/04_01/04_01_end
+        weight: 1
+      - path: Armature/Parent/04_02
+        weight: 1
+      - path: Armature/Parent/04_02/04_02_end
+        weight: 1
+      - path: Armature/Parent/04_03
+        weight: 1
+      - path: Armature/Parent/04_03/04_03_end
+        weight: 1
+      - path: Armature/Parent/04_04
+        weight: 1
+      - path: Armature/Parent/04_04/04_04_end
+        weight: 1
+      - path: Armature/Parent/04_05
+        weight: 1
+      - path: Armature/Parent/04_05/04_05_end
+        weight: 1
+      - path: Armature/Parent/04_06
+        weight: 1
+      - path: Armature/Parent/04_06/04_06_end
+        weight: 1
+      - path: Armature/Parent/05_01
+        weight: 1
+      - path: Armature/Parent/05_01/05_01_end
+        weight: 1
+      - path: Armature/Parent/05_02
+        weight: 1
+      - path: Armature/Parent/05_02/05_02_end
+        weight: 1
+      - path: Armature/Parent/05_03
+        weight: 1
+      - path: Armature/Parent/05_03/05_03_end
+        weight: 1
+      - path: Armature/Parent/05_04
+        weight: 1
+      - path: Armature/Parent/05_04/05_04_end
+        weight: 1
+      - path: Armature/Parent/05_05
+        weight: 1
+      - path: Armature/Parent/05_05/05_05_end
+        weight: 1
+      - path: Armature/Parent/06_01
+        weight: 1
+      - path: Armature/Parent/06_01/06_01_end
+        weight: 1
+      - path: Armature/Parent/06_02
+        weight: 1
+      - path: Armature/Parent/06_02/06_02_end
+        weight: 1
+      - path: Armature/Parent/06_03
+        weight: 1
+      - path: Armature/Parent/06_03/06_03_end
+        weight: 1
+      - path: Armature/Parent/06_04
+        weight: 1
+      - path: Armature/Parent/06_04/06_04_end
+        weight: 1
+      - path: Armature/Parent/06_05
+        weight: 1
+      - path: Armature/Parent/06_05/06_05_end
+        weight: 1
+      - path: Armature/Parent/06_06
+        weight: 1
+      - path: Armature/Parent/06_06/06_06_end
+        weight: 1
+      - path: Matrix_102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _598
+        weight: 1
+      - path: _599
+        weight: 1
+      - path: _600
+        weight: 1
+      - path: _601
+        weight: 1
+      - path: _602
+        weight: 1
+      - path: _603
+        weight: 1
+      - path: _605
+        weight: 1
+      - path: _606
+        weight: 1
+      - path: _607
+        weight: 1
+      - path: _608
+        weight: 1
+      - path: _609
+        weight: 1
+      - path: _610
+        weight: 1
+      - path: _738
+        weight: 1
+      - path: _739
+        weight: 1
+      - path: _740
+        weight: 1
+      - path: _742
+        weight: 1
+      - path: _743
+        weight: 1
+      - path: _744
+        weight: 1
+      - path: _745
+        weight: 1
+      - path: _746
+        weight: 1
+      - path: _747
+        weight: 1
+      - path: _748
+        weight: 1
+      - path: _749
+        weight: 1
+      - path: _750
+        weight: 1
+      - path: _751
+        weight: 1
+      - path: _753
+        weight: 1
+      - path: _754
+        weight: 1
+      - path: _755
+        weight: 1
+      - path: _757
+        weight: 1
+      - path: _758
+        weight: 1
+      - path: _759
+        weight: 1
+      - path: _760
+        weight: 1
+      - path: _761
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Parent
+        weight: 1
+      - path: Armature/Parent/01_01
+        weight: 1
+      - path: Armature/Parent/01_01/01_01_end
+        weight: 1
+      - path: Armature/Parent/01_02
+        weight: 1
+      - path: Armature/Parent/01_02/01_02_end
+        weight: 1
+      - path: Armature/Parent/01_03
+        weight: 1
+      - path: Armature/Parent/01_03/01_03_end
+        weight: 1
+      - path: Armature/Parent/01_04
+        weight: 1
+      - path: Armature/Parent/01_04/01_04_end
+        weight: 1
+      - path: Armature/Parent/01_05
+        weight: 1
+      - path: Armature/Parent/01_05/01_05_end
+        weight: 1
+      - path: Armature/Parent/02_01
+        weight: 1
+      - path: Armature/Parent/02_01/02_01_end
+        weight: 1
+      - path: Armature/Parent/02_02
+        weight: 1
+      - path: Armature/Parent/02_02/02_02_end
+        weight: 1
+      - path: Armature/Parent/02_03
+        weight: 1
+      - path: Armature/Parent/02_03/02_03_end
+        weight: 1
+      - path: Armature/Parent/02_04
+        weight: 1
+      - path: Armature/Parent/02_04/02_04_end
+        weight: 1
+      - path: Armature/Parent/02_05
+        weight: 1
+      - path: Armature/Parent/02_05/02_05_end
+        weight: 1
+      - path: Armature/Parent/02_06
+        weight: 1
+      - path: Armature/Parent/02_06/02_06_end
+        weight: 1
+      - path: Armature/Parent/03_01
+        weight: 1
+      - path: Armature/Parent/03_01/03_01_end
+        weight: 1
+      - path: Armature/Parent/03_02
+        weight: 1
+      - path: Armature/Parent/03_02/03_02_end
+        weight: 1
+      - path: Armature/Parent/03_03
+        weight: 1
+      - path: Armature/Parent/03_03/03_03_end
+        weight: 1
+      - path: Armature/Parent/03_04
+        weight: 1
+      - path: Armature/Parent/03_04/03_04_end
+        weight: 1
+      - path: Armature/Parent/03_05
+        weight: 1
+      - path: Armature/Parent/03_05/03_05_end
+        weight: 1
+      - path: Armature/Parent/04_01
+        weight: 1
+      - path: Armature/Parent/04_01/04_01_end
+        weight: 1
+      - path: Armature/Parent/04_02
+        weight: 1
+      - path: Armature/Parent/04_02/04_02_end
+        weight: 1
+      - path: Armature/Parent/04_03
+        weight: 1
+      - path: Armature/Parent/04_03/04_03_end
+        weight: 1
+      - path: Armature/Parent/04_04
+        weight: 1
+      - path: Armature/Parent/04_04/04_04_end
+        weight: 1
+      - path: Armature/Parent/04_05
+        weight: 1
+      - path: Armature/Parent/04_05/04_05_end
+        weight: 1
+      - path: Armature/Parent/04_06
+        weight: 1
+      - path: Armature/Parent/04_06/04_06_end
+        weight: 1
+      - path: Armature/Parent/05_01
+        weight: 1
+      - path: Armature/Parent/05_01/05_01_end
+        weight: 1
+      - path: Armature/Parent/05_02
+        weight: 1
+      - path: Armature/Parent/05_02/05_02_end
+        weight: 1
+      - path: Armature/Parent/05_03
+        weight: 1
+      - path: Armature/Parent/05_03/05_03_end
+        weight: 1
+      - path: Armature/Parent/05_04
+        weight: 1
+      - path: Armature/Parent/05_04/05_04_end
+        weight: 1
+      - path: Armature/Parent/05_05
+        weight: 1
+      - path: Armature/Parent/05_05/05_05_end
+        weight: 1
+      - path: Armature/Parent/06_01
+        weight: 1
+      - path: Armature/Parent/06_01/06_01_end
+        weight: 1
+      - path: Armature/Parent/06_02
+        weight: 1
+      - path: Armature/Parent/06_02/06_02_end
+        weight: 1
+      - path: Armature/Parent/06_03
+        weight: 1
+      - path: Armature/Parent/06_03/06_03_end
+        weight: 1
+      - path: Armature/Parent/06_04
+        weight: 1
+      - path: Armature/Parent/06_04/06_04_end
+        weight: 1
+      - path: Armature/Parent/06_05
+        weight: 1
+      - path: Armature/Parent/06_05/06_05_end
+        weight: 1
+      - path: Armature/Parent/06_06
+        weight: 1
+      - path: Armature/Parent/06_06/06_06_end
+        weight: 1
+      - path: Matrix_102
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,7 +13,7 @@ public class GeneralManager : MonoBehaviour {
 	bool topScore = false;
 	bool unlock = false;
 
-	public AudioMixer mixer;
+//	public AudioMixer mixer;
 	public AudioClip[] musicBackground;
 	private int prevTrack = 0;
 	private int actTrack = 0;
@@ -31,6 +31,8 @@ public class GeneralManager : MonoBehaviour {
 		else{
 			DontDestroyOnLoad(transform.gameObject);
 			instance = this;
+			PlayerPrefsManager.setIntro (0);
+			Debug.Log ("ya existe el objeto");
 		}
 		//PlayerPrefs.DeleteAll ();
 	}
@@ -41,6 +43,8 @@ public class GeneralManager : MonoBehaviour {
 		speed = 0.1f;
 		spawnRival = 0.5f;
 
+
+//		AudioListener.pause = false;
 
 		PlayerPrefsManager.creacionKeys ();
 		UnlockPlayers ();
@@ -138,27 +142,38 @@ public class GeneralManager : MonoBehaviour {
 	private void UnlockPlayers(){
 		
 		if (!PlayerPrefsManager.getIntro()) {
-			/*if(score > 3){
-				if (team) {
+			if(team){
+				if(score >= PlayerPrefsManager.getScoreT()){
+					PlayerPrefsManager.setScoreT (PlayerPrefsManager.getScoreT() + 2);
 					PlayerPrefsManager.setContUnlockT (PlayerPrefsManager.getContUnlockT() + 1);
+					unlock = true;
 				} else {
-					PlayerPrefsManager.setContUnlockBo (PlayerPrefsManager.getContUnlockbo() + 1);
-				}*/
-			if (PlayerPrefsManager.getGlobalScore() >= PlayerPrefsManager.getFibB()) {
-				if (team) {
-					PlayerPrefsManager.setContUnlockT (PlayerPrefsManager.getContUnlockT() + 1);
-				} else {
-					PlayerPrefsManager.setContUnlockBo (PlayerPrefsManager.getContUnlockbo() + 1);
+					unlock = false;
 				}
-				int a = PlayerPrefsManager.getFibA ();
-				int b = PlayerPrefsManager.getFibB ();
-				int c = a + b;
-				PlayerPrefsManager.setFibA (b);
-				PlayerPrefsManager.setFibB (c);
-				unlock = true;
 			} else {
-				unlock = false;
+				if(score >= PlayerPrefsManager.getScoreBo()){
+					PlayerPrefsManager.setScoreBo (PlayerPrefsManager.getScoreBo() + 2);
+					PlayerPrefsManager.setContUnlockBo (PlayerPrefsManager.getContUnlockbo() + 1);
+					unlock = true;
+				} else {
+					unlock = false;
+				}
 			}
+//			if (PlayerPrefsManager.getGlobalScore() >= PlayerPrefsManager.getFibB()) {
+//				if (team) {
+//					PlayerPrefsManager.setContUnlockT (PlayerPrefsManager.getContUnlockT() + 1);
+//				} else {
+//					PlayerPrefsManager.setContUnlockBo (PlayerPrefsManager.getContUnlockbo() + 1);
+//				}
+//				int a = PlayerPrefsManager.getFibA ();
+//				int b = PlayerPrefsManager.getFibB ();
+//				int c = a + b;
+//				PlayerPrefsManager.setFibA (b);
+//				PlayerPrefsManager.setFibB (c);
+//				unlock = true;
+//			} else {
+//				unlock = false;
+//			}
 
 		} 
 	}
@@ -180,14 +195,14 @@ public class GeneralManager : MonoBehaviour {
 
 	public void PlayMusic(){
 		//if (PlayerPrefs.HasKey ("sound")) {
-		mixer.SetFloat ("masterVol", 0f);
+		AudioListener.volume = 1.0f;
 				//GetComponent<AudioSource> ().Play ();
 		PlayerPrefsManager.setSound(1);
 		//}
 	}
 
 	public void StopMusic(){	
-		mixer.SetFloat ("masterVol", -80f);
+		AudioListener.volume = 0f;
 		PlayerPrefsManager.setSound(0);	
 	}
 

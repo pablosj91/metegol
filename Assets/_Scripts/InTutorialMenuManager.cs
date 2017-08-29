@@ -59,9 +59,9 @@ public class InTutorialMenuManager : MonoBehaviour {
 	public void SoundOnOff(){
 
 		if (PlayerPrefsManager.getSound()) {				
-			gnrlMngr.PlayMusic ();
+			//gnrlMngr.PlayMusic ();
 		} else {				
-			gnrlMngr.StopMusic ();
+			//gnrlMngr.StopMusic ();
 		}
 
 	}

@@ -10,7 +10,7 @@ public class Camara1 : AnimEventCameras {
 
 	public void habilitarLetras(){
 		habilitarObjetos (elementos);
-		boton1.enabled = true;
+//		boton1.enabled = true;
 		boton2.enabled = true;
 	}
 

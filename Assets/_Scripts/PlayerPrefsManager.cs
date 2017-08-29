@@ -12,6 +12,8 @@ public class PlayerPrefsManager : MonoBehaviour {
 	static string fibB = "fibB";
 	static string matches = "matches";
 	static string intro = "intro";
+	static string topScoreT = "topScoreT";
+	static string topScoreBo = "topScoreBo";
 
 
 
@@ -43,6 +45,12 @@ public class PlayerPrefsManager : MonoBehaviour {
 		}
 		if (llaveExiste (intro) == false) {
 			setIntro (0); //0 = es la primera entrada; 1 = ya no es la primera entrada.
+		}
+		if (llaveExiste (topScoreT) == false){
+			setScoreT (4);
+		}
+		if (llaveExiste(topScoreBo)){
+			setScoreBo (4);
 		}
 	}
 
@@ -93,6 +101,14 @@ public class PlayerPrefsManager : MonoBehaviour {
 		PlayerPrefs.SetInt (intro, valor);
 	}
 
+	public static void setScoreT(int valor){
+		PlayerPrefs.SetInt (topScoreT, valor);
+	}
+
+	public static void setScoreBo(int valor){
+		PlayerPrefs.SetInt (topScoreBo, valor);
+	}
+
 	public static bool getSound(){
 		if (PlayerPrefs.GetInt (sound) == 1)
 			return true;
@@ -133,5 +149,13 @@ public class PlayerPrefsManager : MonoBehaviour {
 			return true;
 		else
 			return false;
+	}
+
+	public static int getScoreT(){
+		return PlayerPrefs.GetInt (topScoreT);
+	}
+
+	public static int getScoreBo(){
+		return PlayerPrefs.GetInt (topScoreBo);
 	}
 }

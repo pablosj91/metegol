@@ -12,7 +12,7 @@ public class RivalManager : MonoBehaviour {
 	private bool disapear;
 
 	void Start () {
-		disapear = false;
+		//disapear = false;
 		gmMg = GameObject.FindGameObjectWithTag ("GameManager").GetComponent <GameManager> ();
 		speed = Random.Range (-10, -17);
 		rb2D.velocity = new Vector3(0, 0, speed);
